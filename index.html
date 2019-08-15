@@ -17,19 +17,19 @@
         </div>
         <h4>What is your favorite color?</h4>
         <div class="form-check">
-          <input id="green" class="form-check-input" type="radio" name="fav-color" checked>
+          <input id="green" class="form-check-input" type="radio" name="fav-color" value="green">
           <label for="green" class="form-check-label">Green</label>
         </div>
         <div class="form-check">
-          <input id="yellow" class="form-check-input" type="radio" name="fav-color">
+          <input id="yellow" class="form-check-input" type="radio" name="fav-color" value="yellow">
           <label for="yellow" class="form-check-label">Yellow</label>
         </div>
         <div class="form-check">
-          <input id="purple" class="form-check-input" type="radio" name="fav-color">
+          <input id="purple" class="form-check-input" type="radio" name="fav-color" value="purple">
           <label for="purple" class="form-check-label">Purple</label>
         </div>
         <div class="form-check">
-          <input id="rainbow" class="form-check-input" type="radio" name="fav-color">
+          <input id="rainbow" class="form-check-input" type="radio" name="fav-color" value="rainbow">
           <label for="rainbow" class="form-check-label">Rainbow</label>
         </div>
         <div class="form-group">
@@ -46,35 +46,54 @@
         </div>
         <h4>What's your favorite food?</h4>
         <div class="form-check">
-          <input id="pho" class="form-check-input" type="radio" name="favorite-food">
+          <input id="pho" class="form-check-input" type="radio" name="favorite-food" value="pho">
           <label for="pho" class="form-check-label">Pho</label>
         </div>
         <div class="form-check">
-          <input id="ramen" class="form-check-input" type="radio" name="favorite-food">
+          <input id="ramen" class="form-check-input" type="radio" name="favorite-food" value="ramen">
           <label for="ramen" class="form-check-label">Ramen</label>
         </div>
         <div class="form-check">
-          <input id="udon" class="form-check-input" type="radio" name="favorite-food">
+          <input id="udon" class="form-check-input" type="radio" name="favorite-food" value="udon">
           <label for="udon" class="form-check-label">Udon</label>
         </div>
         <div class="form-check">
-          <input id="chicken-noodle" class="form-check-input" type="radio" name="favorite-food">
+          <input id="chicken-noodle" class="form-check-input" type="radio" name="favorite-food" value="chicken-noodle">
           <label for="chicken-noodle" class="form-check-label">Chicken Noodle</label>
         </div>
         <div class="form-check">
-          <input id="alphabet-soup" class="form-check-input" type="radio" name="favorite-food">
+          <input id="alphabet-soup" class="form-check-input" type="radio" name="favorite-food" value="alphabet-soup">
           <label for="alphabet-soup" class="form-check-label">Alphabet Soup</label>
         </div>
         <div class="form-check">
-          <input id="hate-soup" class="form-check-input" type="radio" name="favorite-food">
+          <input id="hate-soup" class="form-check-input" type="radio" name="favorite-food" value="soup-hater">
           <label for="hate-soup" class="form-check-label">I hate soup</label>
         </div>
+      <button id="submitbutton" type="submit">Submit</button>
       </form>
-      <p id="option1">Hugh Grant</p>
-      <p id="option2">Idris Elba</p>
-      <p id="option3">Scarlett Johansson</p>
-      <p id="option4">Kate McKinnon</p>
-      <p id="option5">You're unlovable</p>
+      <div id="quiz-result">
+        <h3><span id="name-result"></span>, you should date:</h3>
+        <div id="option1" class="result">
+          <h2>Hugh Grant</h2>
+          <img src="img/hugh.jpg" alt="A picture of Hugh Grant">
+        </div>
+        <div id="option2" class="result">
+          <h2>Idris Elba</h2>
+          <img src="img/idris.jpg" alt="A picture of Idris Elba">
+        </div>
+        <div id="option3" class="result">
+          <h2>Scarlett Johansson</h2>
+          <img src="img/scarlett.jpg" alt="A picture of Scarlett Johansson">
+        </div>
+        <div id="option4" class="result">
+          <h2>Kate McKinnon</h2>
+          <img src="img/kate.jpg" alt="A picture of Kate McKinnon">
+        </div>
+        <div id="option5" class="result">
+          <h1>You're Unlovable</h1>
+          <img src="img/fish.jpg" alt="A picture of a bubble eye goldfish">
+        </div>
+      </div>
     </div>
   </body>
 </html>

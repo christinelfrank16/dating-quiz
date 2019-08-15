@@ -1,0 +1,20 @@
+#option1, #option2, #option3, #option4, #option5, #quiz-result {
+  display: none;
+}
+
+.result {
+  text-align: center;
+  font-weight: bold;
+}
+
+.result img {
+  width: 60%;
+}
+
+.quiz-result {
+  margin-top: 30px;
+}
+
+.quiz-result h3 {
+  text-align: center;
+}
