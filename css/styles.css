@@ -2,6 +2,12 @@
   display: none;
 }
 
+h1 {
+  text-align: center;
+}
+body {
+  background-color: #00ace6;
+}
 .result {
   text-align: center;
   font-weight: bold;
