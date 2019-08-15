@@ -10,7 +10,7 @@ $(document).ready(function(){
     }
     else {
       $("#name-result").text(name);
-      if (food.toLowerCase() === "soup-hater"){
+      if (food.toLowerCase() === "soup-hater" || personality === "Who cares as long as they are hot!"){
         $("#option5").show();
       }
       else if (color.toLowerCase() === "green" || personality === "Kindness" || food === "ramen"){
